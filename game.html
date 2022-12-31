@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.<p>0</p>">
+    <link rel="stylesheet" href="style.css">
+    <title>GAME</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1 class="roundcount">ROUND 0</h1>
+            <h2>START</h1>
+            <h1 class="score">SCORE</h1>
+
+            <div class="container_score">
+                <div class="item"><p class="pzero" id="playerscore">0</p><p class="pscore">Your Score</p></div>
+                <div class="item"><p class="pzero" id="aiscore">0</p><p class="pscore">PC Score</p></div>
+            </div>
+        </div>
+        <div class="container_play">
+            <div><button class="item_play" onclick="play(0)"><img src="rock.png" alt=""><p class="pplay">Rock</p></button></div>
+            <div><button class="item_play" onclick="play(1)"><img src="scissor.png" alt=""><p class="pplay">Scissor</p></button></div>
+            <div><button class="item_play" onclick="play(2)"><img src="paper.png" alt=""><p class="pplay">Paper</p></button></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
